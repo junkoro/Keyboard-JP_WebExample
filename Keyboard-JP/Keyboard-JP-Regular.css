@@ -1,0 +1,14 @@
+@font-face{
+  font-family: 'Keyboard-JP-Regular';
+  src: url('Keyboard-JP-Regular.woff') format('woff'),
+    url('Keyboard-JP-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Keyboard-JP-Regular {
+  font-family: 'Keyboard-JP-Regular';
+  font-smoothing: antialiased;
+  font-feature-settings: "liga" 1;
+  text-rendering: optimizeLegibility;
+}
